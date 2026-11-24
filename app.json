@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "StudyOS",
+    "slug": "studyos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "studyos",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.prajanbuilds.studyos"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+  }
+}
